@@ -1,0 +1,70 @@
+body{
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: #a2d2ff;
+    color: #ffffff;
+}
+h1, h2,h3, h4, p {
+    text-shadow: 0px 0px 1px black;
+}
+#bff-img{
+    border-radius: 50%;
+    border: 6px solid #efb0c9;
+    width: 150px;
+}
+#age{
+    background: #efb0c9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+#date{
+    background: #efb0c9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0;
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box{
+    border-radius: 10px;
+    border: 6px solid white;
+    width: 400px;
+    height: 400px;
+    background-image: url(https://media.istockphoto.com/id/1084617104/vector/cartoon-question-box-game-vector-icon.jpg?s=612x612&w=0&k=20&c=H1C5j9jiTdm4FAwACNe__N4LMFy9bQqc9SpEkMQssjU=);
+    background-size: cover;
+    margin: 0 auto;
+}
+#first:hover{
+    background-image: url(https://media.tenor.com/rDwyQnUvNuQAAAAM/vibincat-cat.gif);
+}
+.gift{
+    margin-top: 50px;
+}
+.title{
+    margin-bottom: 10px;
+}
+.hint{
+    margin-top: 0;
+}
+
+#second:hover{
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5eeea355389655.59822ff824b72.gif);
+}
+
+#third:hover{
+    background-image: url(https://media1.giphy.com/media/8m4R4pvViWtRzbloJ1/200w.gif?cid=6c09b95259tjpdmg6hzjiwx8mp8aiif65113pneqam6xena9&rid=200w.gif&ct=g);
+}
+
+#footer{
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+a{
+    color:white;
+}
